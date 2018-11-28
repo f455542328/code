@@ -1,0 +1,12 @@
+[2018-11-28T18:12:42.661] [DEBUG] cheese - login => username:admin,password:123456
+[2018-11-28T18:12:42.664] [DEBUG] cheese - admin
+[2018-11-28T18:12:42.677] [DEBUG] cheese - null
+[2018-11-28T18:12:42.677] [DEBUG] cheese - null
+[2018-11-28T19:49:23.783] [DEBUG] cheese - login => username:admin,password:123456
+[2018-11-28T19:49:23.784] [DEBUG] cheese - admin
+[2018-11-28T19:49:23.789] [DEBUG] cheese - null
+[2018-11-28T19:49:23.789] [DEBUG] cheese - null
+[2018-11-28T19:51:17.043] [DEBUG] cheese - login => username:admin,password:123456
+[2018-11-28T19:51:17.044] [DEBUG] cheese - admin
+[2018-11-28T19:51:17.047] [DEBUG] cheese - null
+[2018-11-28T19:51:17.047] [DEBUG] cheese - null
