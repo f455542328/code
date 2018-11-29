@@ -41,13 +41,14 @@ export default {
         if (valid) {
           this.$http.post('login', this.user)
             .then(res => {
-              var {meta} = res.data
+              var { data, meta } = res.data
               if (meta.status === 200) {
                 this.$message({
                   message: '你已成功登录',
                   type: 'success'
                 })
-                this.$router.push('/home')
+                window.localStorage.setItem('token', data.token)
+                this.$router.push({name: 'index'})
               } else {
                 this.$message.error('登录失败,请重新登录')
               }
