@@ -112,7 +112,7 @@ export default {
     search() {
       this.getDataList()
     },
-    sChange(row){
+    sChange(row) {
       this.$http({
         url: `users/${row.id}/state/${row.mg_state}`,
         method: 'put',
@@ -120,7 +120,7 @@ export default {
           'Authorization': window.localStorage.getItem('token')
         }
       }).then(res => {
-        var {data, meta} = res.data
+        let {meta} = res.data
         if (meta.status === 200) {
           this.$message.success(meta.msg)
         } else {
